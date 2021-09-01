@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5">
+        <form class="row mt-5 pt-5" id="form">
+            <div class="col-12 col-lg-6 offset-lg-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="todo_name">
+                    <button type="submit" class="text-white btn btn-info">Submit</button>
+                </div>
+
+            </div>
+        </form>
+
+        <div class="row my-5">
+            <div class="col-12 col-lg-6 offset-lg-2">
+                <ul class="list-group">
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+{% endblock %}
